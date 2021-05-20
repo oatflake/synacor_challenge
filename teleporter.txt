@@ -1,0 +1,69 @@
+5483 set r0 4		// parameter r0 is set to 4
+5486 set r1 1		// parameter r1 is set to 1
+5489 call 6027		// function at 6027 is called
+5491 eq r1 r0 6		// result in r0 should be 6
+5495 jf r1 5579		// if they are not equal, jump to error message (?) at 5579
+
+
+so in other words:
+
+r0 = func6027(4, 1, r7)
+r1 = r0 == 6
+if not r1:
+	error
+
+
+func6027 uses three registers: r0, r1 and r7
+we know that r1 is overwritten immediately, and r0 should be 6
+upon setting r0 to 6 manually, we do get teleported
+a code for the website is being printed as well, but it is wrong...
+the only other register of importance then is r7, which is only read from but not written to by func6027
+
+over here r7 is being used afterwards (to generate the code for the website?):
+
+5522 set r0 r7
+5525 set r1 25866
+5528 set r2 32767
+5531 push r3
+5533 set r3 29241
+5536 call 1841
+5538 pop r3
+5540 push r0
+5542 push r1
+5544 push r2
+
+
+here is func6027:
+
+6027 jt r0 6035
+6030 add r0 r1 1
+6034 ret
+6035 jt r1 6048
+6038 add r0 r0 32767
+6042 set r1 r7
+6045 call 6027
+6047 ret
+6048 push r0
+6050 add r1 r1 32767
+6054 call 6027
+6056 set r1 r0
+6059 pop r0
+6061 add r0 r0 32767
+6065 call 6027
+6067 ret
+
+
+translated to high level language:
+
+r7 = 1
+def func6027(n, m):
+    global r7
+    if n == 0:
+        return (m + 1) % 32768
+    if m == 0:
+        return func6027((n + 32767) % 32768, r7)
+    return func6027((n + 32767) % 32768, func6027(n, (m + 32767) % 32768))
+print(func6027(4, 1))
+
+
+this is a modfified version of the ackermann function! implementing this using dynamic programming in c++

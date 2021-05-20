@@ -1,0 +1,2755 @@
+0 noop
+1 noop
+2 out 87
+4 out 101
+6 out 108
+8 out 99
+10 out 111
+12 out 109
+14 out 101
+16 out 32
+18 out 116
+20 out 111
+22 out 32
+24 out 116
+26 out 104
+28 out 101
+30 out 32
+32 out 83
+34 out 121
+36 out 110
+38 out 97
+40 out 99
+42 out 111
+44 out 114
+46 out 32
+48 out 67
+50 out 104
+52 out 97
+54 out 108
+56 out 108
+58 out 101
+60 out 110
+62 out 103
+64 out 101
+66 out 33
+68 out 10
+70 out 80
+72 out 108
+74 out 101
+76 out 97
+78 out 115
+80 out 101
+82 out 32
+84 out 114
+86 out 101
+88 out 99
+90 out 111
+92 out 114
+94 out 100
+96 out 32
+98 out 121
+100 out 111
+102 out 117
+104 out 114
+106 out 32
+108 out 112
+110 out 114
+112 out 111
+114 out 103
+116 out 114
+118 out 101
+120 out 115
+122 out 115
+124 out 32
+126 out 98
+128 out 121
+130 out 32
+132 out 112
+134 out 117
+136 out 116
+138 out 116
+140 out 105
+142 out 110
+144 out 103
+146 out 32
+148 out 99
+150 out 111
+152 out 100
+154 out 101
+156 out 115
+158 out 32
+160 out 108
+162 out 105
+164 out 107
+166 out 101
+168 out 10
+170 out 116
+172 out 104
+174 out 105
+176 out 115
+178 out 32
+180 out 111
+182 out 110
+184 out 101
+186 out 32
+188 out 105
+190 out 110
+192 out 116
+194 out 111
+196 out 32
+198 out 116
+200 out 104
+202 out 101
+204 out 32
+206 out 99
+208 out 104
+210 out 97
+212 out 108
+214 out 108
+216 out 101
+218 out 110
+220 out 103
+222 out 101
+224 out 32
+226 out 119
+228 out 101
+230 out 98
+232 out 115
+234 out 105
+236 out 116
+238 out 101
+240 out 58
+242 out 32
+244 out 98
+246 out 100
+248 out 98
+250 out 77
+252 out 101
+254 out 65
+256 out 78
+258 out 118
+260 out 104
+262 out 83
+264 out 81
+266 out 97
+268 out 10
+270 out 10
+272 out 69
+274 out 120
+276 out 101
+278 out 99
+280 out 117
+282 out 116
+284 out 105
+286 out 110
+288 out 103
+290 out 32
+292 out 115
+294 out 101
+296 out 108
+298 out 102
+300 out 45
+302 out 116
+304 out 101
+306 out 115
+308 out 116
+310 out 46
+312 out 46
+314 out 46
+316 out 10
+318 out 10
+320 jmp 347
+322 out 106
+324 out 109
+326 out 112
+328 out 32
+330 out 102
+332 out 97
+334 out 105
+336 out 108
+338 out 115
+340 out 10
+342 halt
+343 noop
+344 noop
+345 noop
+346 noop
+347 noop
+348 noop
+349 noop
+350 noop
+351 noop
+352 jmp 358
+354 jmp 368
+356 jmp 397
+358 jmp 484
+360 jmp 424
+362 jmp 453
+364 noop
+365 noop
+366 noop
+367 noop
+368 out 106
+370 out 109
+372 out 112
+374 out 32
+376 out 108
+378 out 97
+380 out 110
+382 out 100
+384 out 115
+386 out 32
+388 out 45
+390 out 50
+392 out 10
+394 halt
+395 noop
+396 noop
+397 out 106
+399 out 109
+401 out 112
+403 out 32
+405 out 108
+407 out 97
+409 out 110
+411 out 100
+413 out 115
+415 out 32
+417 out 45
+419 out 49
+421 out 10
+423 halt
+424 noop
+425 noop
+426 out 106
+428 out 109
+430 out 112
+432 out 32
+434 out 108
+436 out 97
+438 out 110
+440 out 100
+442 out 115
+444 out 32
+446 out 43
+448 out 49
+450 out 10
+452 halt
+453 noop
+454 noop
+455 noop
+456 noop
+457 out 106
+459 out 109
+461 out 112
+463 out 32
+465 out 108
+467 out 97
+469 out 110
+471 out 100
+473 out 115
+475 out 32
+477 out 43
+479 out 50
+481 out 10
+483 halt
+484 jt 0 1074
+487 jf 1 1074
+490 jt 1 495
+493 jmp 1074
+495 jf 0 500
+498 jmp 1074
+500 jt r0 1093
+503 jt r1 1093
+506 jt r2 1093
+509 jt r3 1093
+512 jt r4 1093
+515 jt r5 1093
+518 jt r6 1093
+521 jt r7 1093
+524 set r0 1
+527 jf r0 1118
+530 set r0 0
+533 jt r0 1118
+536 add r0 1 1
+540 jt r0 564
+543 out 110
+545 out 111
+547 out 32
+549 out 97
+551 out 100
+553 out 100
+555 out 32
+557 out 111
+559 out 112
+561 out 10
+563 halt
+564 eq r1 r0 2
+568 jt r1 590
+571 out 110
+573 out 111
+575 out 32
+577 out 101
+579 out 113
+581 out 32
+583 out 111
+585 out 112
+587 out 10
+589 halt
+590 push r0
+592 push r1
+594 pop r0
+596 pop r1
+598 eq r2 r1 2
+602 jf r2 1158
+605 eq r2 r0 1
+609 jf r2 1158
+612 gt r2 r1 r0
+616 jf r2 1139
+619 gt r2 r0 r1
+623 jt r2 1139
+626 gt r2 42 42
+630 jt r2 1139
+633 and r0 28912 19626
+637 eq r1 r0 16544
+641 jf r1 1177
+644 or r1 28912 19626
+648 eq r0 r1 31994
+652 jt r0 684
+655 out 110
+657 out 111
+659 out 32
+661 out 98
+663 out 105
+665 out 116
+667 out 119
+669 out 105
+671 out 115
+673 out 101
+675 out 32
+677 out 111
+679 out 114
+681 out 10
+683 halt
+684 not r0 0
+687 eq r1 r0 32767
+691 jf r1 1208
+694 not r0 21845
+697 eq r1 r0 10922
+701 jf r1 1208
+704 call 1285
+706 jmp 1289
+708 pop r0
+710 eq r1 r0 708
+714 jt r1 1289
+717 eq r1 r0 706
+721 jf r1 1289
+724 set r0 1287
+727 call r0
+729 jmp 1289
+731 pop r0
+733 eq r1 r0 731
+737 jt r1 1289
+740 eq r1 r0 729
+744 jf r1 1289
+747 add r0 32767 32767
+751 eq r1 r0 32766
+755 jf r1 1312
+758 eq r1 32766 r0
+762 jf r1 1312
+765 add r0 16384 16384
+769 jt r0 1312
+772 add r0 16384 16384
+776 jt r0 1312
+779 mul r0 6 9
+783 eq r1 r0 42
+787 jt r1 1381
+790 eq r1 r0 54
+794 jf r1 1414
+797 mul r0 12345 32123
+801 eq r1 r0 99
+805 jf r1 1312
+808 mod r0 6 3
+812 eq r1 r0 0
+816 jf r1 1437
+819 mod r0 70 6
+823 eq r1 r0 4
+827 jf r1 1437
+830 mul r0 32766 15
+834 eq r1 r0 32738
+838 jf r1 1312
+841 jmp 845
+843 FILLER: 20000
+844 FILLER: 10000
+845 rmem r0 843
+848 eq r1 r0 20000
+852 jf r1 1239
+855 add r2 843 1
+859 rmem r0 r2
+862 eq r1 r0 10000
+866 jf r1 1239
+869 set r0 843
+872 wmem r0 30000
+875 rmem r2 r0
+878 eq r1 r2 30000
+882 jf r1 1262
+885 call 1723
+887 rmem r0 6068
+890 eq r1 r0 11
+894 jf r1 1239
+897 add r2 6068 1
+901 rmem r0 r2
+904 eq r1 r0 116
+908 jf r1 1239
+911 wmem r2 84
+914 rmem r0 r2
+917 eq r1 r0 116
+921 jt r1 1262
+924 eq r1 r0 84
+928 jf r1 1262
+931 wmem 937 21
+934 wmem 938 7
+937 jmp 941
+939 out 978
+941 out 119
+943 out 109
+945 out 101
+947 out 109
+949 out 32
+951 out 111
+953 out 112
+955 out 119
+957 out 114
+959 out 105
+961 out 116
+963 out 101
+965 out 32
+967 out 102
+969 out 97
+971 out 105
+973 out 108
+975 out 10
+977 halt
+978 add r1 10 6080
+982 add r1 r1 1
+986 rmem r2 6116
+989 add r2 r2 6116
+993 set r0 6116
+996 add r0 r0 1
+1000 gt r3 r0 r2
+1004 jt r3 1023
+1007 rmem r4 r0
+1010 wmem r1 r4
+1013 add r0 r0 1
+1017 add r1 r1 1
+1021 jmp 1000
+1023 rmem r0 6080
+1026 rmem r1 6099
+1029 add r0 r0 r1
+1033 add r0 r0 1
+1037 wmem 6080 r0
+1040 wmem 6099 44
+1043 set r0 6080
+1046 call 1518
+1048 push r0
+1050 push r1
+1052 push r2
+1054 set r0 26851
+1057 set r1 1531
+1060 add r2 6014 2661
+1064 call 1458
+1066 pop r2
+1068 pop r1
+1070 pop r0
+1072 jmp 2734
+1074 out 110
+1076 out 111
+1078 out 32
+1080 out 106
+1082 out 116
+1084 out 47
+1086 out 106
+1088 out 102
+1090 out 10
+1092 halt
+1093 out 110
+1095 out 111
+1097 out 110
+1099 out 122
+1101 out 101
+1103 out 114
+1105 out 111
+1107 out 32
+1109 out 114
+1111 out 101
+1113 out 103
+1115 out 10
+1117 halt
+1118 out 110
+1120 out 111
+1122 out 32
+1124 out 115
+1126 out 101
+1128 out 116
+1130 out 32
+1132 out 111
+1134 out 112
+1136 out 10
+1138 halt
+1139 out 110
+1141 out 111
+1143 out 32
+1145 out 103
+1147 out 116
+1149 out 32
+1151 out 111
+1153 out 112
+1155 out 10
+1157 halt
+1158 out 110
+1160 out 111
+1162 out 32
+1164 out 115
+1166 out 116
+1168 out 97
+1170 out 99
+1172 out 107
+1174 out 10
+1176 halt
+1177 out 110
+1179 out 111
+1181 out 32
+1183 out 98
+1185 out 105
+1187 out 116
+1189 out 119
+1191 out 105
+1193 out 115
+1195 out 101
+1197 out 32
+1199 out 97
+1201 out 110
+1203 out 100
+1205 out 10
+1207 halt
+1208 out 110
+1210 out 111
+1212 out 32
+1214 out 98
+1216 out 105
+1218 out 116
+1220 out 119
+1222 out 105
+1224 out 115
+1226 out 101
+1228 out 32
+1230 out 110
+1232 out 111
+1234 out 116
+1236 out 10
+1238 halt
+1239 out 110
+1241 out 111
+1243 out 32
+1245 out 114
+1247 out 109
+1249 out 101
+1251 out 109
+1253 out 32
+1255 out 111
+1257 out 112
+1259 out 10
+1261 halt
+1262 out 110
+1264 out 111
+1266 out 32
+1268 out 119
+1270 out 109
+1272 out 101
+1274 out 109
+1276 out 32
+1278 out 111
+1280 out 112
+1282 out 10
+1284 halt
+1285 jmp 708
+1287 jmp 731
+1289 out 110
+1291 out 111
+1293 out 32
+1295 out 99
+1297 out 97
+1299 out 108
+1301 out 108
+1303 out 32
+1305 out 111
+1307 out 112
+1309 out 10
+1311 halt
+1312 out 110
+1314 out 111
+1316 out 32
+1318 out 109
+1320 out 111
+1322 out 100
+1324 out 117
+1326 out 108
+1328 out 111
+1330 out 32
+1332 out 109
+1334 out 97
+1336 out 116
+1338 out 104
+1340 out 32
+1342 out 100
+1344 out 117
+1346 out 114
+1348 out 105
+1350 out 110
+1352 out 103
+1354 out 32
+1356 out 97
+1358 out 100
+1360 out 100
+1362 out 32
+1364 out 111
+1366 out 114
+1368 out 32
+1370 out 109
+1372 out 117
+1374 out 108
+1376 out 116
+1378 out 10
+1380 halt
+1381 out 110
+1383 out 111
+1385 out 116
+1387 out 32
+1389 out 104
+1391 out 105
+1393 out 116
+1395 out 99
+1397 out 104
+1399 out 104
+1401 out 105
+1403 out 107
+1405 out 105
+1407 out 110
+1409 out 103
+1411 out 10
+1413 halt
+1414 out 110
+1416 out 111
+1418 out 32
+1420 out 109
+1422 out 117
+1424 out 108
+1426 out 116
+1428 out 32
+1430 out 111
+1432 out 112
+1434 out 10
+1436 halt
+1437 out 110
+1439 out 111
+1441 out 32
+1443 out 109
+1445 out 111
+1447 out 100
+1449 out 32
+1451 out 111
+1453 out 112
+1455 out 10
+1457 halt
+1458 push r0
+1460 push r3
+1462 push r4
+1464 push r5
+1466 push r6
+1468 set r6 r0
+1471 set r5 r1
+1474 rmem r4 r0
+1477 set r1 0
+1480 add r3 1 r1
+1484 gt r0 r3 r4
+1488 jt r0 1507
+1491 add r3 r3 r6
+1495 rmem r0 r3
+1498 call r5
+1500 add r1 r1 1
+1504 jt r1 1480
+1507 pop r6
+1509 pop r5
+1511 pop r4
+1513 pop r3
+1515 pop r0
+1517 ret
+1518 push r1
+1520 set r1 1528
+1523 call 1458
+1525 pop r1
+1527 ret
+1528 out r0
+1530 ret
+1531 push r1
+1533 set r1 r2
+1536 call 2125
+1538 out r0
+1540 pop r1
+1542 ret
+1543 push r1
+1545 push r3
+1547 rmem r3 r0
+1550 jf r3 1563
+1553 call 1458
+1555 jt r1 1563
+1558 set r0 r2
+1561 jmp 1566
+1563 set r0 32767
+1566 pop r3
+1568 pop r1
+1570 ret
+1571 push r1
+1573 push r2
+1575 set r2 r1
+1578 set r1 1605
+1581 call 1543
+1583 pop r2
+1585 pop r1
+1587 ret
+1588 push r1
+1590 push r2
+1592 set r2 r1
+1595 set r1 1648
+1598 call 1543
+1600 pop r2
+1602 pop r1
+1604 ret
+1605 eq r0 r0 r2
+1609 jf r0 1618
+1612 set r2 r1
+1615 set r1 32767
+1618 ret
+1619 push r3
+1621 add r3 r2 1
+1625 add r3 r3 r1
+1629 rmem r3 r3
+1632 eq r3 r0 r3
+1636 jt r3 1645
+1639 set r2 r1
+1642 set r1 32767
+1645 pop r3
+1647 ret
+1648 push r1
+1650 set r1 r2
+1653 call 1667
+1655 pop r1
+1657 jf r0 1666
+1660 set r2 r1
+1663 set r1 32767
+1666 ret
+1667 push r1
+1669 push r2
+1671 push r3
+1673 push r4
+1675 rmem r3 r0
+1678 rmem r4 r1
+1681 eq r2 r3 r4
+1685 jf r2 1711
+1688 or r2 r3 r4
+1692 jf r2 1706
+1695 set r2 r1
+1698 set r1 1619
+1701 call 1458
+1703 jf r1 1711
+1706 set r0 1
+1709 jmp 1714
+1711 set r0 0
+1714 pop r4
+1716 pop r3
+1718 pop r2
+1720 pop r1
+1722 ret
+1723 push r0
+1725 push r1
+1727 set r1 6068
+1730 rmem r0 r1
+1733 push r1
+1735 mul r1 r1 r1
+1739 call 2125
+1741 set r1 16724
+1744 call 2125
+1746 pop r1
+1748 wmem r1 r0
+1751 add r1 r1 1
+1755 eq r0 30050 r1
+1759 jf r0 1730
+1762 pop r1
+1764 pop r0
+1766 ret
+1767 push r0
+1769 push r2
+1771 push r3
+1773 push r4
+1775 push r5
+1777 add r2 r1 r0
+1781 set r0 r1
+1784 set r5 0
+1787 add r0 r0 1
+1791 gt r3 r0 r2
+1795 jt r3 1816
+1798 in r4
+1800 eq r3 r4 10
+1804 jt r3 1816
+1807 wmem r0 r4
+1810 add r5 r5 1
+1814 jmp 1787
+1816 wmem r1 r5
+1819 eq r3 r4 10
+1823 jt r3 1830
+1826 in r4
+1828 jmp 1819
+1830 pop r5
+1832 pop r4
+1834 pop r3
+1836 pop r2
+1838 pop r0
+1840 ret
+1841 push r3
+1843 push r4
+1845 push r5
+1847 push r6
+1849 set r6 1
+1852 add r4 r3 r6
+1856 rmem r4 r4
+1859 add r5 6125 r6
+1863 wmem r5 r4
+1866 add r6 r6 1
+1870 rmem r5 6125
+1873 gt r4 r6 r5
+1877 jf r4 1852
+1880 set r3 0
+1883 set r4 0
+1886 rmem r5 6125
+1889 mod r5 r4 r5
+1893 add r5 r5 6125
+1897 add r5 r5 1
+1901 rmem r6 r5
+1904 mul r6 r6 5249
+1908 add r6 r6 12345
+1912 wmem r5 r6
+1915 push r0
+1917 push r1
+1919 set r1 r6
+1922 call 2125
+1924 set r6 r0
+1927 pop r1
+1929 pop r0
+1931 rmem r5 r1
+1934 mod r6 r6 r5
+1938 add r6 r6 1
+1942 gt r5 r6 r2
+1946 jt r5 1952
+1949 set r3 1
+1952 add r6 r6 r1
+1956 rmem r6 r6
+1959 add r4 r4 1
+1963 add r5 r4 6129
+1967 wmem r5 r6
+1970 rmem r5 6129
+1973 eq r5 r4 r5
+1977 jf r5 1886
+1980 jf r3 1880
+1983 push r0
+1985 set r0 6129
+1988 call 1518
+1990 pop r0
+1992 pop r6
+1994 pop r5
+1996 pop r4
+1998 pop r3
+2000 ret
+2001 push r0
+2003 push r1
+2005 push r2
+2007 push r3
+2009 push r4
+2011 push r5
+2013 set r2 1
+2016 set r5 0
+2019 jf r0 2092
+2022 eq r4 r2 10000
+2026 set r3 r0
+2029 jt r4 2040
+2032 mul r1 r2 10
+2036 mod r3 r0 r1
+2040 set r4 0
+2043 mul r2 r2 32767
+2047 jf r3 2060
+2050 add r4 r4 1
+2054 add r3 r3 r2
+2058 jmp 2047
+2060 mul r2 r2 32767
+2064 mul r3 r4 r2
+2068 mul r3 r3 32767
+2072 add r0 r0 r3
+2076 add r4 r4 48
+2080 mul r2 r2 10
+2084 add r5 r5 1
+2088 push r4
+2090 jmp 2019
+2092 jt r5 2099
+2095 out 48
+2097 jmp 2112
+2099 jf r5 2112
+2102 pop r0
+2104 out r0
+2106 add r5 r5 32767
+2110 jmp 2099
+2112 pop r5
+2114 pop r4
+2116 pop r3
+2118 pop r2
+2120 pop r1
+2122 pop r0
+2124 ret
+2125 push r1
+2127 push r2
+2129 and r2 r0 r1
+2133 not r2 r2
+2136 or r0 r0 r1
+2140 and r0 r0 r2
+2144 pop r2
+2146 pop r1
+2148 ret
+2149 add r0 r0 r1
+2153 gt r1 r1 r0
+2157 ret
+2158 push r2
+2160 gt r2 r1 r0
+2164 mul r1 r1 32767
+2168 add r0 r0 r1
+2172 set r1 r2
+2175 pop r2
+2177 ret
+2178 jf r0 2241
+2181 jf r1 2241
+2184 push r2
+2186 push r3
+2188 gt r2 r1 r0
+2192 jt r2 2204
+2195 set r2 r0
+2198 set r0 r1
+2201 set r1 r2
+2204 set r2 r0
+2207 set r0 0
+2210 add r0 r0 r1
+2214 gt r3 r1 r0
+2218 jt r3 2233
+2221 add r2 r2 32767
+2225 jt r2 2210
+2228 set r1 0
+2231 jmp 2236
+2233 set r1 1
+2236 pop r3
+2238 pop r2
+2240 ret
+2241 set r0 0
+2244 set r1 0
+2247 ret
+2248 push r1
+2250 push r2
+2252 jf r1 2276
+2255 add r1 r1 32767
+2259 and r2 r0 16384
+2263 mul r0 r0 2
+2267 jf r2 2252
+2270 or r0 r0 1
+2274 jmp 2252
+2276 pop r2
+2278 pop r1
+2280 ret
+2281 push r1
+2283 gt r1 r0 14
+2287 jt r1 2309
+2290 set r1 r0
+2293 set r0 1
+2296 jf r1 2312
+2299 add r1 r1 32767
+2303 mul r0 r0 2
+2307 jmp 2296
+2309 set r0 32767
+2312 pop r1
+2314 ret
+2315 jmp 2734
+2317 FILLER: 6142
+2318 FILLER: 6152
+2319 FILLER: 26900
+2320 FILLER: 26903
+2321 halt
+2322 FILLER: 6350
+2323 FILLER: 6360
+2324 FILLER: 26906
+2325 FILLER: 26908
+2326 halt
+2327 FILLER: 6441
+2328 FILLER: 6451
+2329 FILLER: 26910
+2330 FILLER: 26913
+2331 halt
+2332 FILLER: 6597
+2333 FILLER: 6607
+2334 FILLER: 26916
+2335 FILLER: 26919
+2336 halt
+2337 FILLER: 6711
+2338 FILLER: 6721
+2339 FILLER: 26922
+2340 FILLER: 26925
+2341 halt
+2342 FILLER: 6922
+2343 FILLER: 6934
+2344 FILLER: 26928
+2345 FILLER: 26931
+2346 halt
+2347 FILLER: 7070
+2348 FILLER: 7095
+2349 FILLER: 26934
+2350 FILLER: 26936
+2351 halt
+2352 FILLER: 7270
+2353 FILLER: 7282
+2354 FILLER: 26938
+2355 FILLER: 26941
+2356 halt
+2357 FILLER: 7502
+2358 FILLER: 7514
+2359 FILLER: 26944
+2360 FILLER: 26946
+2361 halt
+2362 FILLER: 7616
+2363 FILLER: 7628
+2364 FILLER: 26948
+2365 FILLER: 26951
+2366 halt
+2367 FILLER: 7799
+2368 FILLER: 7807
+2369 FILLER: 26954
+2370 FILLER: 26958
+2371 halt
+2372 FILLER: 8007
+2373 FILLER: 26962
+2374 FILLER: 26965
+2375 FILLER: 26968
+2376 halt
+2377 FILLER: 8163
+2378 FILLER: 8179
+2379 FILLER: 26971
+2380 FILLER: 26977
+2381 FILLER: 3742
+2382 FILLER: 8332
+2383 FILLER: 8348
+2384 FILLER: 26983
+2385 FILLER: 26987
+2386 FILLER: 3746
+2387 FILLER: 8421
+2388 FILLER: 8437
+2389 FILLER: 26991
+2390 FILLER: 26995
+2391 FILLER: 3756
+2392 FILLER: 8510
+2393 FILLER: 8526
+2394 FILLER: 26999
+2395 FILLER: 27004
+2396 FILLER: 3766
+2397 FILLER: 8673
+2398 FILLER: 8689
+2399 FILLER: 27009
+2400 FILLER: 27013
+2401 FILLER: 3776
+2402 FILLER: 8762
+2403 FILLER: 8778
+2404 FILLER: 27017
+2405 FILLER: 27022
+2406 FILLER: 3786
+2407 FILLER: 8932
+2408 FILLER: 8948
+2409 FILLER: 27027
+2410 FILLER: 27031
+2411 FILLER: 3796
+2412 FILLER: 9021
+2413 FILLER: 9037
+2414 FILLER: 27035
+2415 FILLER: 27037
+2416 FILLER: 3806
+2417 FILLER: 9098
+2418 FILLER: 9114
+2419 FILLER: 27039
+2420 FILLER: 27041
+2421 halt
+2422 FILLER: 9175
+2423 FILLER: 9191
+2424 FILLER: 27043
+2425 FILLER: 27046
+2426 FILLER: 3656
+2427 FILLER: 9259
+2428 FILLER: 9272
+2429 FILLER: 27049
+2430 FILLER: 27052
+2431 FILLER: 3656
+2432 FILLER: 9397
+2433 FILLER: 9410
+2434 FILLER: 27055
+2435 FILLER: 27058
+2436 FILLER: 3656
+2437 FILLER: 9455
+2438 FILLER: 9468
+2439 FILLER: 27061
+2440 FILLER: 27064
+2441 FILLER: 3656
+2442 FILLER: 9513
+2443 FILLER: 9526
+2444 FILLER: 27067
+2445 FILLER: 27070
+2446 FILLER: 3656
+2447 FILLER: 9637
+2448 FILLER: 9643
+2449 FILLER: 27073
+2450 FILLER: 27076
+2451 halt
+2452 FILLER: 9903
+2453 FILLER: 9909
+2454 FILLER: 27079
+2455 FILLER: 27082
+2456 halt
+2457 FILLER: 10103
+2458 FILLER: 10109
+2459 FILLER: 27085
+2460 FILLER: 27090
+2461 halt
+2462 halt
+2463 FILLER: 10425
+2464 FILLER: 10431
+2465 FILLER: 27107
+2466 FILLER: 27109
+2467 FILLER: 3893
+2468 FILLER: 10605
+2469 FILLER: 10611
+2470 FILLER: 27111
+2471 FILLER: 27114
+2472 halt
+2473 FILLER: 10760
+2474 FILLER: 10766
+2475 FILLER: 27117
+2476 FILLER: 27119
+2477 halt
+2478 FILLER: 10892
+2479 FILLER: 10898
+2480 FILLER: 27121
+2481 FILLER: 27124
+2482 halt
+2483 FILLER: 11086
+2484 FILLER: 11092
+2485 FILLER: 27127
+2486 FILLER: 27129
+2487 halt
+2488 FILLER: 11267
+2489 FILLER: 11288
+2490 FILLER: 27131
+2491 FILLER: 27133
+2492 halt
+2493 FILLER: 11552
+2494 FILLER: 11573
+2495 FILLER: 27135
+2496 FILLER: 27137
+2497 halt
+2498 FILLER: 11726
+2499 FILLER: 11732
+2500 FILLER: 27139
+2501 FILLER: 27143
+2502 halt
+2503 FILLER: 11919
+2504 FILLER: 11925
+2505 FILLER: 27147
+2506 FILLER: 27150
+2507 halt
+2508 FILLER: 12199
+2509 FILLER: 12205
+2510 FILLER: 27153
+2511 FILLER: 27156
+2512 halt
+2513 FILLER: 12459
+2514 FILLER: 12475
+2515 FILLER: 27159
+2516 FILLER: 27163
+2517 halt
+2518 FILLER: 12691
+2519 FILLER: 12707
+2520 FILLER: 27167
+2521 FILLER: 27171
+2522 halt
+2523 FILLER: 12847
+2524 FILLER: 12863
+2525 FILLER: 27175
+2526 FILLER: 27178
+2527 halt
+2528 FILLER: 13106
+2529 FILLER: 13122
+2530 FILLER: 27181
+2531 FILLER: 27184
+2532 halt
+2533 FILLER: 13420
+2534 FILLER: 13436
+2535 FILLER: 27187
+2536 FILLER: 27190
+2537 halt
+2538 FILLER: 13694
+2539 FILLER: 13708
+2540 FILLER: 27193
+2541 FILLER: 27196
+2542 halt
+2543 FILLER: 13941
+2544 FILLER: 13955
+2545 FILLER: 27199
+2546 FILLER: 27202
+2547 halt
+2548 FILLER: 14090
+2549 FILLER: 14104
+2550 FILLER: 27205
+2551 FILLER: 27209
+2552 halt
+2553 FILLER: 14444
+2554 FILLER: 14465
+2555 FILLER: 27213
+2556 FILLER: 27215
+2557 halt
+2558 FILLER: 14634
+2559 FILLER: 14648
+2560 FILLER: 27217
+2561 FILLER: 27220
+2562 FILLER: 4611
+2563 FILLER: 14765
+2564 FILLER: 14776
+2565 FILLER: 27223
+2566 FILLER: 27226
+2567 FILLER: 3958
+2568 FILLER: 14916
+2569 FILLER: 14927
+2570 FILLER: 27229
+2571 FILLER: 27233
+2572 FILLER: 3975
+2573 FILLER: 15074
+2574 FILLER: 15085
+2575 FILLER: 27237
+2576 FILLER: 27241
+2577 FILLER: 3992
+2578 FILLER: 15230
+2579 FILLER: 15241
+2580 FILLER: 27245
+2581 FILLER: 27249
+2582 FILLER: 4009
+2583 FILLER: 15505
+2584 FILLER: 15516
+2585 FILLER: 27253
+2586 FILLER: 27257
+2587 FILLER: 4028
+2588 FILLER: 15664
+2589 FILLER: 15675
+2590 FILLER: 27261
+2591 FILLER: 27266
+2592 FILLER: 4045
+2593 FILLER: 15826
+2594 FILLER: 15837
+2595 FILLER: 27271
+2596 FILLER: 27276
+2597 FILLER: 4062
+2598 FILLER: 15991
+2599 FILLER: 16002
+2600 FILLER: 27281
+2601 FILLER: 27285
+2602 FILLER: 4079
+2603 FILLER: 16148
+2604 FILLER: 16159
+2605 FILLER: 27289
+2606 FILLER: 27293
+2607 FILLER: 4096
+2608 FILLER: 16305
+2609 FILLER: 16316
+2610 FILLER: 27297
+2611 FILLER: 27302
+2612 FILLER: 4113
+2613 FILLER: 16469
+2614 FILLER: 16480
+2615 FILLER: 27307
+2616 FILLER: 27312
+2617 FILLER: 4130
+2618 FILLER: 16631
+2619 FILLER: 16642
+2620 FILLER: 27317
+2621 FILLER: 27321
+2622 FILLER: 4147
+2623 FILLER: 16791
+2624 FILLER: 16809
+2625 FILLER: 27325
+2626 FILLER: 27329
+2627 FILLER: 4164
+2628 FILLER: 16971
+2629 FILLER: 16982
+2630 FILLER: 27333
+2631 FILLER: 27337
+2632 FILLER: 4167
+2633 FILLER: 17127
+2634 FILLER: 17138
+2635 FILLER: 27341
+2636 FILLER: 27345
+2637 FILLER: 4184
+2638 FILLER: 17285
+2639 FILLER: 17296
+2640 FILLER: 27349
+2641 FILLER: 27352
+2642 FILLER: 4201
+2643 FILLER: 17436
+2644 FILLER: 17442
+2645 FILLER: 27355
+2646 FILLER: 27357
+2647 FILLER: 4690
+2648 FILLER: 17661
+2649 FILLER: 17693
+2650 FILLER: 27359
+2651 FILLER: 27362
+2652 halt
+2653 FILLER: 17806
+2654 FILLER: 17838
+2655 FILLER: 27365
+2656 FILLER: 27368
+2657 halt
+2658 FILLER: 17949
+2659 FILLER: 17967
+2660 FILLER: 27371
+2661 FILLER: 27375
+2662 halt
+2663 FILLER: 18055
+2664 FILLER: 18061
+2665 FILLER: 27379
+2666 FILLER: 27380
+2667 FILLER: 3701
+2668 FILLER: 18062
+2669 FILLER: 18069
+2670 FILLER: 2317
+2671 FILLER: 4720
+2672 FILLER: 18206
+2673 FILLER: 18220
+2674 FILLER: 2357
+2675 halt
+2676 FILLER: 18344
+2677 FILLER: 18352
+2678 FILLER: 32767
+2679 FILLER: 4885
+2680 FILLER: 18468
+2681 FILLER: 18480
+2682 FILLER: 32767
+2683 FILLER: 4931
+2684 FILLER: 18568
+2685 FILLER: 18572
+2686 FILLER: 2417
+2687 FILLER: 4799
+2688 FILLER: 18618
+2689 FILLER: 18627
+2690 FILLER: 2452
+2691 FILLER: 5360
+2692 FILLER: 18691
+2693 FILLER: 18705
+2694 FILLER: 2473
+2695 FILLER: 5377
+2696 FILLER: 18769
+2697 FILLER: 18780
+2698 FILLER: 2483
+2699 FILLER: 5394
+2700 FILLER: 18852
+2701 FILLER: 18865
+2702 FILLER: 2468
+2703 FILLER: 5411
+2704 FILLER: 18953
+2705 FILLER: 18963
+2706 FILLER: 2478
+2707 FILLER: 5428
+2708 FILLER: 19029
+2709 FILLER: 19040
+2710 FILLER: 2463
+2711 FILLER: 5445
+2712 FILLER: 19113
+2713 FILLER: 19127
+2714 FILLER: 2488
+2715 halt
+2716 FILLER: 19192
+2717 FILLER: 19196
+2718 FILLER: 2623
+2719 halt
+2720 FILLER: 19258
+2721 FILLER: 19265
+2722 FILLER: 2643
+2723 FILLER: 5721
+2724 FILLER: 19384
+2725 FILLER: 19397
+2726 FILLER: 2488
+2727 halt
+2728 FILLER: 22093
+2729 FILLER: 22101
+2730 FILLER: 2553
+2731 halt
+2732 FILLER: 2317
+2733 halt
+2734 push r0
+2736 push r1
+2738 push r2
+2740 push r3
+2742 rmem r1 2732
+2745 rmem r0 2733
+2748 eq r0 r0 r1
+2752 jt r0 2770
+2755 rmem r0 2732
+2758 add r0 r0 4
+2762 rmem r0 r0
+2765 jf r0 2770
+2768 call r0
+2770 rmem r1 2732
+2773 rmem r0 2733
+2776 eq r0 r0 r1
+2780 jt r0 2791
+2783 set r0 25974
+2786 wmem r0 0
+2789 call 2964
+2791 wmem 2733 r1
+2794 push r0
+2796 push r1
+2798 push r2
+2800 set r0 27414
+2803 set r1 1531
+2806 add r2 6051 16190
+2810 call 1458
+2812 pop r2
+2814 pop r1
+2816 pop r0
+2818 set r0 32
+2821 set r1 25974
+2824 call 1767
+2826 out 10
+2828 out 10
+2830 set r0 25974
+2833 set r1 32
+2836 call 1571
+2838 eq r1 r0 32767
+2842 jf r1 2848
+2845 rmem r0 25974
+2848 set r2 r0
+2851 rmem r1 25974
+2854 push r1
+2856 wmem 25974 r2
+2859 set r0 27398
+2862 set r1 25974
+2865 call 1588
+2867 pop r1
+2869 wmem 25974 r1
+2872 eq r1 r0 32767
+2876 jf r1 2885
+2879 set r0 0
+2882 set r2 0
+2885 add r1 27406 1
+2889 add r1 r1 r0
+2893 rmem r1 r1
+2896 rmem r3 25974
+2899 eq r3 r3 r2
+2903 jt r3 2944
+2906 mul r0 r2 32767
+2910 rmem r3 25974
+2913 add r3 r0 r3
+2917 jf r2 2924
+2920 add r3 r3 32767
+2924 mod r3 r3 32
+2928 add r0 25974 r2
+2932 jf r2 2939
+2935 add r0 r0 1
+2939 wmem r0 r3
+2942 jmp 2950
+2944 set r0 25974
+2947 wmem r0 0
+2950 call r1
+2952 jt r1 2742
+2955 pop r3
+2957 pop r2
+2959 pop r1
+2961 pop r0
+2963 ret
+2964 push r0
+2966 push r1
+2968 push r2
+2970 rmem r1 r0
+2973 jf r1 3032
+2976 call 5921
+2978 jf r0 3006
+2981 push r0
+2983 call 5990
+2985 set r1 r0
+2988 pop r0
+2990 jf r1 3006
+2993 add r1 r0 1
+2997 rmem r0 r1
+3000 call 1518
+3002 out 10
+3004 jmp 3238
+3006 push r0
+3008 push r1
+3010 push r2
+3012 set r0 27432
+3015 set r1 1531
+3018 add r2 6523 489
+3022 call 1458
+3024 pop r2
+3026 pop r1
+3028 pop r0
+3030 jmp 3238
+3032 rmem r0 2732
+3035 push r0
+3037 out 61
+3039 out 61
+3041 out 32
+3043 add r0 r0 0
+3047 rmem r0 r0
+3050 call 1518
+3052 out 32
+3054 out 61
+3056 out 61
+3058 out 10
+3060 pop r0
+3062 push r0
+3064 add r0 r0 1
+3068 rmem r0 r0
+3071 rmem r1 r0
+3074 eq r1 r1 2
+3078 jf r1 3104
+3081 push r0
+3083 set r0 2680
+3086 call 5990
+3088 set r1 r0
+3091 pop r0
+3093 add r0 r0 1
+3097 add r0 r0 r1
+3101 rmem r0 r0
+3104 call 1518
+3106 out 10
+3108 pop r0
+3110 push r0
+3112 call 5823
+3114 jf r0 3146
+3117 push r0
+3119 push r1
+3121 push r2
+3123 set r0 27455
+3126 set r1 1531
+3129 add r2 9054 8340
+3133 call 1458
+3135 pop r2
+3137 pop r1
+3139 pop r0
+3141 rmem r2 2732
+3144 call 5876
+3146 pop r0
+3148 push r0
+3150 add r0 r0 2
+3154 rmem r0 r0
+3157 rmem r0 r0
+3160 eq r2 r0 1
+3164 out 10
+3166 out 84
+3168 out 104
+3170 out 101
+3172 out 114
+3174 out 101
+3176 out 32
+3178 jt r2 3189
+3181 out 97
+3183 out 114
+3185 out 101
+3187 jmp 3193
+3189 out 105
+3191 out 115
+3193 out 32
+3195 call 2001
+3197 out 32
+3199 out 101
+3201 out 120
+3203 out 105
+3205 out 116
+3207 eq r2 r0 1
+3211 jt r2 3216
+3214 out 115
+3216 out 58
+3218 out 10
+3220 pop r0
+3222 push r0
+3224 add r0 r0 2
+3228 rmem r0 r0
+3231 set r1 5814
+3234 call 1458
+3236 pop r0
+3238 pop r2
+3240 pop r1
+3242 pop r0
+3244 ret
+3245 push r0
+3247 push r1
+3249 push r2
+3251 set r1 r0
+3254 rmem r0 2732
+3257 add r0 r0 2
+3261 rmem r0 r0
+3264 call 1588
+3266 eq r2 r0 32767
+3270 jt r2 3302
+3273 rmem r2 2732
+3276 add r2 r2 3
+3280 rmem r2 r2
+3283 add r2 r2 1
+3287 add r2 r2 r0
+3291 rmem r2 r2
+3294 wmem 2732 r2
+3297 wmem 2733 0
+3300 jmp 3326
+3302 push r0
+3304 push r1
+3306 push r2
+3308 set r0 27482
+3311 set r1 1531
+3314 add r2 26085 1685
+3318 call 1458
+3320 pop r2
+3322 pop r1
+3324 pop r0
+3326 pop r2
+3328 pop r1
+3330 pop r0
+3332 ret
+3333 push r0
+3335 push r0
+3337 push r1
+3339 push r2
+3341 set r0 27532
+3344 set r1 1531
+3347 add r2 588 23836
+3351 call 1458
+3353 pop r2
+3355 pop r1
+3357 pop r0
+3359 pop r0
+3361 ret
+3362 push r0
+3364 push r2
+3366 push r0
+3368 push r1
+3370 push r2
+3372 set r0 28037
+3375 set r1 1531
+3378 add r2 895 29433
+3382 call 1458
+3384 pop r2
+3386 pop r1
+3388 pop r0
+3390 set r2 0
+3393 call 5876
+3395 pop r2
+3397 pop r0
+3399 ret
+3400 push r0
+3402 push r1
+3404 push r2
+3406 call 5921
+3408 jf r0 3457
+3411 add r1 r0 2
+3415 rmem r0 r1
+3418 rmem r2 2732
+3421 eq r2 r0 r2
+3425 jf r2 3457
+3428 wmem r1 0
+3431 push r0
+3433 push r1
+3435 push r2
+3437 set r0 28054
+3440 set r1 1531
+3443 add r2 8391 1055
+3447 call 1458
+3449 pop r2
+3451 pop r1
+3453 pop r0
+3455 jmp 3481
+3457 push r0
+3459 push r1
+3461 push r2
+3463 set r0 28062
+3466 set r1 1531
+3469 add r2 2419 1412
+3473 call 1458
+3475 pop r2
+3477 pop r1
+3479 pop r0
+3481 pop r2
+3483 pop r1
+3485 pop r0
+3487 ret
+3488 push r0
+3490 push r1
+3492 call 5921
+3494 jf r0 3539
+3497 add r1 r0 2
+3501 rmem r0 r1
+3504 jt r0 3539
+3507 rmem r0 2732
+3510 wmem r1 r0
+3513 push r0
+3515 push r1
+3517 push r2
+3519 set r0 28090
+3522 set r1 1531
+3525 add r2 319 7208
+3529 call 1458
+3531 pop r2
+3533 pop r1
+3535 pop r0
+3537 jmp 3563
+3539 push r0
+3541 push r1
+3543 push r2
+3545 set r0 28100
+3548 set r1 1531
+3551 add r2 6442 7500
+3555 call 1458
+3557 pop r2
+3559 pop r1
+3561 pop r0
+3563 pop r1
+3565 pop r0
+3567 ret
+3568 push r0
+3570 push r1
+3572 call 5921
+3574 jf r0 3601
+3577 add r1 r0 2
+3581 rmem r1 r1
+3584 jt r1 3601
+3587 add r1 r0 3
+3591 rmem r1 r1
+3594 jf r1 3627
+3597 call r1
+3599 jmp 3651
+3601 push r0
+3603 push r1
+3605 push r2
+3607 set r0 28135
+3610 set r1 1531
+3613 add r2 393 4073
+3617 call 1458
+3619 pop r2
+3621 pop r1
+3623 pop r0
+3625 jmp 3651
+3627 push r0
+3629 push r1
+3631 push r2
+3633 set r0 28170
+3636 set r1 1531
+3639 add r2 4647 2260
+3643 call 1458
+3645 pop r2
+3647 pop r1
+3649 pop r0
+3651 pop r1
+3653 pop r0
+3655 ret
+3656 push r0
+3658 push r1
+3660 push r2
+3662 set r0 2680
+3665 call 5990
+3667 jt r0 3694
+3670 add r0 2676 2
+3674 wmem r0 32767
+3677 add r0 2680 2
+3681 wmem r0 32767
+3684 add r0 2672 2
+3688 wmem r0 32767
+3691 wmem 2732 2648
+3694 pop r2
+3696 pop r1
+3698 pop r0
+3700 ret
+3701 push r0
+3703 push r1
+3705 push r2
+3707 set r0 28204
+3710 set r1 1531
+3713 add r2 19991 6877
+3717 call 1458
+3719 pop r2
+3721 pop r1
+3723 pop r0
+3725 halt
+3726 halt
+3727 push r1
+3729 rmem r1 3726
+3732 or r1 r1 r0
+3736 wmem 3726 r1
+3739 pop r1
+3741 ret
+3742 wmem 3726 0
+3745 ret
+3746 push r0
+3748 set r0 1
+3751 call 3727
+3753 pop r0
+3755 ret
+3756 push r0
+3758 set r0 2
+3761 call 3727
+3763 pop r0
+3765 ret
+3766 push r0
+3768 set r0 4
+3771 call 3727
+3773 pop r0
+3775 ret
+3776 push r0
+3778 set r0 8
+3781 call 3727
+3783 pop r0
+3785 ret
+3786 push r0
+3788 set r0 16
+3791 call 3727
+3793 pop r0
+3795 ret
+3796 push r0
+3798 set r0 32
+3801 call 3727
+3803 pop r0
+3805 ret
+3806 push r0
+3808 push r1
+3810 push r2
+3812 push r3
+3814 set r0 64
+3817 call 3727
+3819 push r0
+3821 push r1
+3823 push r2
+3825 set r0 28236
+3828 set r1 1531
+3831 add r2 7026 6518
+3835 call 1458
+3837 pop r2
+3839 pop r1
+3841 pop r0
+3843 rmem r0 3726
+3846 set r1 25866
+3849 set r2 32767
+3852 set r3 28299
+3855 call 1841
+3857 push r0
+3859 push r1
+3861 push r2
+3863 set r0 28303
+3866 set r1 1531
+3869 add r2 18006 13462
+3873 call 1458
+3875 pop r2
+3877 pop r1
+3879 pop r0
+3881 wmem 2732 2417
+3884 pop r3
+3886 pop r2
+3888 pop r1
+3890 pop r0
+3892 ret
+3893 push r0
+3895 push r1
+3897 rmem r0 2462
+3900 rmem r1 27101
+3903 eq r0 r0 r1
+3907 jt r0 3940
+3910 push r0
+3912 push r1
+3914 push r2
+3916 set r0 28347
+3919 set r1 1531
+3922 add r2 19716 2409
+3926 call 1458
+3928 pop r2
+3930 pop r1
+3932 pop r0
+3934 wmem 2732 2457
+3937 wmem 2733 2457
+3940 pop r1
+3942 pop r0
+3944 ret
+3945 FILLER: 26007
+3946 FILLER: 26013
+3947 FILLER: 26017
+3948 FILLER: 2149
+3949 FILLER: 2158
+3950 FILLER: 2178
+3951 halt
+3952 FILLER: 22
+3953 halt
+3954 halt
+3955 halt
+3956 halt
+3957 halt
+3958 push r0
+3960 push r1
+3962 set r0 2
+3965 set r1 0
+3968 call 4218
+3970 pop r1
+3972 pop r0
+3974 ret
+3975 push r0
+3977 push r1
+3979 set r0 8
+3982 set r1 1
+3985 call 4279
+3987 pop r1
+3989 pop r0
+3991 ret
+3992 push r0
+3994 push r1
+3996 set r0 1
+3999 set r1 2
+4002 call 4218
+4004 pop r1
+4006 pop r0
+4008 ret
+4009 push r0
+4011 push r1
+4013 set r0 1
+4016 set r1 3
+4019 call 4279
+4021 call 4533
+4023 pop r1
+4025 pop r0
+4027 ret
+4028 push r0
+4030 push r1
+4032 set r0 4
+4035 set r1 4
+4038 call 4279
+4040 pop r1
+4042 pop r0
+4044 ret
+4045 push r0
+4047 push r1
+4049 set r0 2
+4052 set r1 5
+4055 call 4218
+4057 pop r1
+4059 pop r0
+4061 ret
+4062 push r0
+4064 push r1
+4066 set r0 11
+4069 set r1 6
+4072 call 4279
+4074 pop r1
+4076 pop r0
+4078 ret
+4079 push r0
+4081 push r1
+4083 set r0 2
+4086 set r1 7
+4089 call 4218
+4091 pop r1
+4093 pop r0
+4095 ret
+4096 push r0
+4098 push r1
+4100 set r0 0
+4103 set r1 8
+4106 call 4218
+4108 pop r1
+4110 pop r0
+4112 ret
+4113 push r0
+4115 push r1
+4117 set r0 4
+4120 set r1 9
+4123 call 4279
+4125 pop r1
+4127 pop r0
+4129 ret
+4130 push r0
+4132 push r1
+4134 set r0 1
+4137 set r1 10
+4140 call 4218
+4142 pop r1
+4144 pop r0
+4146 ret
+4147 push r0
+4149 push r1
+4151 set r0 18
+4154 set r1 11
+4157 call 4279
+4159 pop r1
+4161 pop r0
+4163 ret
+4164 call 4611
+4166 ret
+4167 push r0
+4169 push r1
+4171 set r0 1
+4174 set r1 12
+4177 call 4218
+4179 pop r1
+4181 pop r0
+4183 ret
+4184 push r0
+4186 push r1
+4188 set r0 9
+4191 set r1 13
+4194 call 4279
+4196 pop r1
+4198 pop r0
+4200 ret
+4201 push r0
+4203 push r1
+4205 set r0 2
+4208 set r1 14
+4211 call 4218
+4213 pop r1
+4215 pop r0
+4217 ret
+4218 push r0
+4220 push r1
+4222 push r2
+4224 add r2 2716 2
+4228 rmem r2 r2
+4231 jt r2 4272
+4234 call 4405
+4236 wmem 3951 r0
+4239 add r1 r0 3945
+4243 rmem r1 r1
+4246 set r0 26024
+4249 call 1518
+4251 set r0 r1
+4254 call 1518
+4256 set r0 26088
+4259 call 1518
+4261 set r0 r1
+4264 call 1518
+4266 out 46
+4268 out 10
+4270 out 10
+4272 pop r2
+4274 pop r1
+4276 pop r0
+4278 ret
+4279 push r0
+4281 push r1
+4283 push r2
+4285 add r2 2716 2
+4289 rmem r2 r2
+4292 jt r2 4398
+4295 call 4405
+4297 push r0
+4299 rmem r0 3951
+4302 add r1 r0 3945
+4306 rmem r1 r1
+4309 set r0 26122
+4312 call 1518
+4314 set r0 r1
+4317 call 1518
+4319 set r0 26170
+4322 call 1518
+4324 pop r0
+4326 set r1 r0
+4329 rmem r0 3952
+4332 rmem r2 3951
+4335 add r2 r2 3948
+4339 rmem r2 r2
+4342 call r2
+4344 jt r1 4391
+4347 rmem r1 3952
+4350 wmem 3952 r0
+4353 gt r2 r0 r1
+4357 jf r2 4369
+4360 push r0
+4362 set r0 26235
+4365 call 1518
+4367 pop r0
+4369 gt r2 r1 r0
+4373 jf r2 4385
+4376 push r0
+4378 set r0 26267
+4381 call 1518
+4383 pop r0
+4385 out 10
+4387 out 10
+4389 jmp 4398
+4391 call 4660
+4393 set r0 26299
+4396 call 1518
+4398 pop r2
+4400 pop r1
+4402 pop r0
+4404 ret
+4405 push r0
+4407 push r1
+4409 push r2
+4411 push r3
+4413 push r4
+4415 push r5
+4417 rmem r5 3953
+4420 gt r3 r5 29999
+4424 jt r3 4434
+4427 add r5 r5 1
+4431 wmem 3953 r5
+4434 set r3 r0
+4437 set r4 r1
+4440 add r0 r5 2
+4444 call 2281
+4446 rmem r1 3954
+4449 or r0 r1 r0
+4453 set r1 r4
+4456 call 2248
+4458 wmem 3954 r0
+4461 set r0 3955
+4464 add r1 r5 2
+4468 set r2 r4
+4471 call 4515
+4473 set r0 3956
+4476 mul r1 r5 r5
+4480 mul r2 r4 r4
+4484 call 4515
+4486 set r0 3957
+4489 set r1 13
+4492 mul r2 r3 9
+4496 mul r2 r2 r2
+4500 call 4515
+4502 pop r5
+4504 pop r4
+4506 pop r3
+4508 pop r2
+4510 pop r1
+4512 pop r0
+4514 ret
+4515 push r0
+4517 rmem r0 r0
+4520 call 2248
+4522 set r1 r2
+4525 call 2125
+4527 pop r1
+4529 wmem r1 r0
+4532 ret
+4533 push r0
+4535 add r0 2716 2
+4539 rmem r0 r0
+4542 jt r0 4608
+4545 set r0 26321
+4548 call 1518
+4550 rmem r0 3952
+4553 eq r0 r0 30
+4557 jt r0 4574
+4560 set r0 26354
+4563 call 1518
+4565 set r0 26398
+4568 call 1518
+4570 call 4660
+4572 jmp 4608
+4574 set r0 26440
+4577 call 1518
+4579 rmem r0 3954
+4582 add r0 r0 1
+4586 jt r0 4596
+4589 set r0 26484
+4592 call 1518
+4594 jmp 4565
+4596 set r0 26584
+4599 call 1518
+4601 add r0 2716 2
+4605 wmem r0 32767
+4608 pop r0
+4610 ret
+4611 push r0
+4613 add r0 2716 2
+4617 rmem r0 r0
+4620 jt r0 4657
+4623 set r0 26717
+4626 call 1518
+4628 rmem r0 2732
+4631 eq r0 r0 2623
+4635 jt r0 4645
+4638 set r0 26725
+4641 call 1518
+4643 jmp 4650
+4645 set r0 26731
+4648 call 1518
+4650 set r0 26737
+4653 call 1518
+4655 call 4660
+4657 pop r0
+4659 ret
+4660 push r0
+4662 wmem 3952 22
+4665 wmem 3953 0
+4668 wmem 3954 0
+4671 wmem 3955 0
+4674 wmem 3956 0
+4677 wmem 3957 0
+4680 add r0 2716 2
+4684 wmem r0 2623
+4687 pop r0
+4689 ret
+4690 push r0
+4692 add r0 2716 2
+4696 rmem r0 r0
+4699 eq r0 r0 32767
+4703 jt r0 4717
+4706 set r0 26824
+4709 call 1518
+4711 wmem 2732 2578
+4714 wmem 2733 2578
+4717 pop r0
+4719 ret
+4720 push r0
+4722 push r1
+4724 push r2
+4726 push r3
+4728 push r0
+4730 push r1
+4732 push r2
+4734 set r0 28369
+4737 set r1 1531
+4740 add r2 22495 1170
+4744 call 1458
+4746 pop r2
+4748 pop r1
+4750 pop r0
+4752 set r0 4242
+4755 set r1 25866
+4758 set r2 32767
+4761 set r3 28397
+4764 call 1841
+4766 push r0
+4768 push r1
+4770 push r2
+4772 set r0 28401
+4775 set r1 1531
+4778 add r2 3754 7612
+4782 call 1458
+4784 pop r2
+4786 pop r1
+4788 pop r0
+4790 pop r3
+4792 pop r2
+4794 pop r1
+4796 pop r0
+4798 ret
+4799 push r0
+4801 add r0 2672 2
+4805 rmem r0 r0
+4808 jt r0 4858
+4811 add r0 2684 2
+4815 wmem r0 32767
+4818 add r0 2672 2
+4822 wmem r0 32767
+4825 add r0 2676 2
+4829 wmem r0 0
+4832 push r0
+4834 push r1
+4836 push r2
+4838 set r0 28453
+4841 set r1 1531
+4844 add r2 20305 1063
+4848 call 1458
+4850 pop r2
+4852 pop r1
+4854 pop r0
+4856 jmp 4882
+4858 push r0
+4860 push r1
+4862 push r2
+4864 set r0 28510
+4867 set r1 1531
+4870 add r2 4476 3834
+4874 call 1458
+4876 pop r2
+4878 pop r1
+4880 pop r0
+4882 pop r0
+4884 ret
+4885 push r0
+4887 add r0 2676 2
+4891 wmem r0 32767
+4894 add r0 2680 2
+4898 wmem r0 0
+4901 push r0
+4903 push r1
+4905 push r2
+4907 set r0 28569
+4910 set r1 1531
+4913 add r2 17190 6486
+4917 call 1458
+4919 pop r2
+4921 pop r1
+4923 pop r0
+4925 wmem 2733 0
+4928 pop r0
+4930 ret
+4931 push r0
+4933 add r0 2676 2
+4937 wmem r0 0
+4940 add r0 2680 2
+4944 wmem r0 32767
+4947 push r0
+4949 push r1
+4951 push r2
+4953 set r0 28595
+4956 set r1 1531
+4959 add r2 18617 12997
+4963 call 1458
+4965 pop r2
+4967 pop r1
+4969 pop r0
+4971 wmem 2733 0
+4974 pop r0
+4976 ret
+4977 push r2
+4979 push r3
+4981 rmem r2 2732
+4984 eq r2 r2 2457
+4988 jt r2 5017
+4991 push r0
+4993 push r1
+4995 push r2
+4997 set r0 28621
+5000 set r1 1531
+5003 add r2 374 106
+5007 call 1458
+5009 pop r2
+5011 pop r1
+5013 pop r0
+5015 jmp 5336
+5017 add r2 r0 2
+5021 wmem r2 32767
+5024 rmem r2 2462
+5027 add r2 r2 27095
+5031 add r2 r2 1
+5035 rmem r2 r2
+5038 add r3 2457 1
+5042 rmem r3 r3
+5045 add r3 r3 r2
+5049 add r2 r1 48
+5053 wmem r3 r2
+5056 rmem r2 2462
+5059 add r2 r2 27101
+5063 add r2 r2 1
+5067 wmem r2 r1
+5070 push r0
+5072 push r0
+5074 push r1
+5076 push r2
+5078 set r0 28664
+5081 set r1 1531
+5084 add r2 22523 2539
+5088 call 1458
+5090 pop r2
+5092 pop r1
+5094 pop r0
+5096 pop r0
+5098 push r0
+5100 add r2 r0 0
+5104 rmem r0 r2
+5107 call 1518
+5109 pop r0
+5111 push r0
+5113 push r0
+5115 push r1
+5117 push r2
+5119 set r0 28679
+5122 set r1 1531
+5125 add r2 12121 19464
+5129 call 1458
+5131 pop r2
+5133 pop r1
+5135 pop r0
+5137 pop r0
+5139 rmem r2 2462
+5142 add r2 r2 1
+5146 wmem 2462 r2
+5149 rmem r3 27101
+5152 eq r3 r2 r3
+5156 jf r3 5336
+5159 set r0 0
+5162 add r1 27101 1
+5166 rmem r1 r1
+5169 add r0 r0 r1
+5173 add r1 27101 2
+5177 rmem r1 r1
+5180 add r2 27101 3
+5184 rmem r2 r2
+5187 mul r2 r2 r2
+5191 mul r1 r1 r2
+5195 add r0 r0 r1
+5199 add r1 27101 4
+5203 rmem r1 r1
+5206 mul r2 r1 r1
+5210 mul r2 r2 r1
+5214 add r0 r0 r2
+5218 add r1 27101 5
+5222 rmem r1 r1
+5225 mul r1 r1 32767
+5229 add r0 r0 r1
+5233 eq r1 r0 399
+5237 jt r1 5312
+5240 add r2 2688 2
+5244 wmem r2 2457
+5247 add r2 2692 2
+5251 wmem r2 2457
+5254 add r2 2696 2
+5258 wmem r2 2457
+5261 add r2 2700 2
+5265 wmem r2 2457
+5268 add r2 2704 2
+5272 wmem r2 2457
+5275 wmem 2462 0
+5278 set r0 27095
+5281 set r1 5341
+5284 call 1458
+5286 push r0
+5288 push r1
+5290 push r2
+5292 set r0 28710
+5295 set r1 1531
+5298 add r2 1752 27679
+5302 call 1458
+5304 pop r2
+5306 pop r1
+5308 pop r0
+5310 jmp 5336
+5312 push r0
+5314 push r1
+5316 push r2
+5318 set r0 28777
+5321 set r1 1531
+5324 add r2 2376 22963
+5328 call 1458
+5330 pop r2
+5332 pop r1
+5334 pop r0
+5336 pop r3
+5338 pop r2
+5340 ret
+5341 push r2
+5343 add r2 2457 1
+5347 rmem r2 r2
+5350 add r2 r2 r0
+5354 wmem r2 95
+5357 pop r2
+5359 ret
+5360 push r0
+5362 push r1
+5364 set r0 2688
+5367 set r1 2
+5370 call 4977
+5372 pop r1
+5374 pop r0
+5376 ret
+5377 push r0
+5379 push r1
+5381 set r0 2692
+5384 set r1 3
+5387 call 4977
+5389 pop r1
+5391 pop r0
+5393 ret
+5394 push r0
+5396 push r1
+5398 set r0 2696
+5401 set r1 5
+5404 call 4977
+5406 pop r1
+5408 pop r0
+5410 ret
+5411 push r0
+5413 push r1
+5415 set r0 2700
+5418 set r1 7
+5421 call 4977
+5423 pop r1
+5425 pop r0
+5427 ret
+5428 push r0
+5430 push r1
+5432 set r0 2704
+5435 set r1 9
+5438 call 4977
+5440 pop r1
+5442 pop r0
+5444 ret
+5445 push r0
+5447 push r1
+5449 push r2
+5451 jf r7 5605
+5454 push r0
+5456 push r1
+5458 push r2
+5460 set r0 28844
+5463 set r1 1531
+5466 add r2 5931 206
+5470 call 1458
+5472 pop r2
+5474 pop r1
+5476 pop r0
+5478 noop
+5479 noop
+5480 noop
+5481 noop
+5482 noop
+5483 set r0 4
+5486 set r1 1
+5489 call 6027
+5491 eq r1 r0 6
+5495 jf r1 5579
+5498 push r0
+5500 push r1
+5502 push r2
+5504 set r0 29014
+5507 set r1 1531
+5510 add r2 4162 2733
+5514 call 1458
+5516 pop r2
+5518 pop r1
+5520 pop r0
+5522 set r0 r7
+5525 set r1 25866
+5528 set r2 32767
+5531 push r3
+5533 set r3 29241
+5536 call 1841
+5538 pop r3
+5540 push r0
+5542 push r1
+5544 push r2
+5546 set r0 29245
+5549 set r1 1531
+5552 add r2 14798 9244
+5556 call 1458
+5558 pop r2
+5560 pop r1
+5562 pop r0
+5564 wmem 2732 2498
+5567 wmem 2733 0
+5570 add r1 2708 2
+5574 wmem r1 32767
+5577 jmp 5714
+5579 push r0
+5581 push r1
+5583 push r2
+5585 set r0 29400
+5588 set r1 1531
+5591 add r2 3857 1645
+5595 call 1458
+5597 pop r2
+5599 pop r1
+5601 pop r0
+5603 jmp 5714
+5605 push r0
+5607 push r1
+5609 push r2
+5611 set r0 29545
+5614 set r1 1531
+5617 add r2 217 24
+5621 call 1458
+5623 pop r2
+5625 pop r1
+5627 pop r0
+5629 set r0 0
+5632 add r2 1 27101
+5636 rmem r1 r2
+5639 add r0 r0 r1
+5643 mul r0 r0 31660
+5647 call 2125
+5649 rmem r1 27101
+5652 add r1 r1 27101
+5656 add r2 r2 1
+5660 gt r1 r2 r1
+5664 jf r1 5636
+5667 set r1 25866
+5670 set r2 32767
+5673 push r3
+5675 set r3 29663
+5678 call 1841
+5680 pop r3
+5682 push r0
+5684 push r1
+5686 push r2
+5688 set r0 29667
+5691 set r1 1531
+5694 add r2 365 782
+5698 call 1458
+5700 pop r2
+5702 pop r1
+5704 pop r0
+5706 wmem 2732 2488
+5709 wmem 2733 0
+5712 jmp 5714
+5714 pop r2
+5716 pop r1
+5718 pop r0
+5720 ret
+5721 push r0
+5723 push r1
+5725 push r2
+5727 push r3
+5729 push r0
+5731 push r1
+5733 push r2
+5735 set r0 29757
+5738 set r1 1531
+5741 add r2 19367 5201
+5745 call 1458
+5747 pop r2
+5749 pop r1
+5751 pop r0
+5753 rmem r0 3955
+5756 rmem r1 3956
+5759 call 2125
+5761 rmem r1 3957
+5764 call 2125
+5766 set r1 25919
+5769 set r2 4
+5772 push r3
+5774 set r3 29942
+5777 call 1841
+5779 pop r3
+5781 push r0
+5783 push r1
+5785 push r2
+5787 set r0 29946
+5790 set r1 1531
+5793 add r2 2575 12497
+5797 call 1458
+5799 pop r2
+5801 pop r1
+5803 pop r0
+5805 pop r3
+5807 pop r2
+5809 pop r1
+5811 pop r0
+5813 ret
+5814 out 45
+5816 out 32
+5818 call 1518
+5820 out 10
+5822 ret
+5823 push r1
+5825 push r2
+5827 set r0 27381
+5830 set r1 5846
+5833 set r2 0
+5836 call 1458
+5838 set r0 r2
+5841 pop r2
+5843 pop r1
+5845 ret
+5846 push r3
+5848 push r4
+5850 rmem r3 2732
+5853 add r4 r0 2
+5857 rmem r4 r4
+5860 eq r3 r3 r4
+5864 jf r3 5871
+5867 add r2 r2 1
+5871 pop r4
+5873 pop r3
+5875 ret
+5876 push r0
+5878 push r1
+5880 set r0 27381
+5883 set r1 5893
+5886 call 1458
+5888 pop r1
+5890 pop r0
+5892 ret
+5893 push r3
+5895 add r3 r0 2
+5899 rmem r3 r3
+5902 eq r3 r2 r3
+5906 jf r3 5918
+5909 add r0 r0 0
+5913 rmem r0 r0
+5916 call 5814
+5918 pop r3
+5920 ret
+5921 push r1
+5923 push r2
+5925 set r2 r0
+5928 set r0 27381
+5931 set r1 5964
+5934 call 1543
+5936 eq r1 r0 32767
+5940 jt r1 5956
+5943 add r1 27381 r0
+5947 add r1 r1 1
+5951 rmem r0 r1
+5954 jmp 5959
+5956 set r0 0
+5959 pop r2
+5961 pop r1
+5963 ret
+5964 push r1
+5966 set r1 r2
+5969 add r0 r0 0
+5973 rmem r0 r0
+5976 call 1667
+5978 pop r1
+5980 jf r0 5989
+5983 set r2 r1
+5986 set r1 32767
+5989 ret
+5990 push r1
+5992 push r2
+5994 add r0 r0 2
+5998 rmem r0 r0
+6001 jf r0 6019
+6004 rmem r1 2732
+6007 eq r1 r0 r1
+6011 jt r1 6019
+6014 set r0 0
+6017 jmp 6022
+6019 set r0 1
+6022 pop r2
+6024 pop r1
+6026 ret
+6027 jt r0 6035
+6030 add r0 r1 1
+6034 ret
+6035 jt r1 6048
+6038 add r0 r0 32767
+6042 set r1 r7
+6045 call 6027
+6047 ret
+6048 push r0
+6050 add r1 r1 32767
+6054 call 6027
+6056 set r1 r0
+6059 pop r0
+6061 add r0 r0 32767
+6065 call 6027
+6067 ret
+6068 FILLER: 6095
+6069 FILLER: 17625
+6070 FILLER: 29781
+6071 FILLER: 9718
+6072 FILLER: 21856
+6073 FILLER: 709
+6074 FILLER: 12803
+6075 FILLER: 25529
